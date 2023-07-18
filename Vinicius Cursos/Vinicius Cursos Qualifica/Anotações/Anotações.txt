@@ -1,0 +1,88 @@
+<!DOCTYPE>
+<html>
+<head>
+		<tittle> Teste no bloco de notas   </tittle> 
+	//Resolvendo problemas com acentuação
+	<meta charset="UTF-8">
+</head>
+<body> 
+	// Tags de headings e paragráfos // <h1 id="Título_principal> EXEMPLO </h1> //<h1> EXEMPLO </h1> e vai até o <h6> </h6> // <p> </p>( adicione a / para fechar a tag //
+		Teste no bloco de notas
+	//Adicionando Links ao HTML//
+	<a href="https://www.google.com"> </a>
+		<p> Este link leva ao google: <a> href="https://www.google.com" </a> </p>
+	//Formatação de palavras//	
+		<p> A próxima palavra <strong> ficara <strong> <b> em negrito <b> </p>
+		<p> A próxima palavra <en> ficará <en> em <i> itálico <i> </p>
+		<p> A próxima palavra <del> ficará <del> em deletado/riscado </p>
+		<p> <sub> Exemplo 1 </sub> - <sup> Exemplo 2 </sup> subescrito e sobreescrito </p>
+	
+	//Citações//
+	<blockquote cite="https://www.google.com">
+	Ser ou não ser, eis a questão.
+	</blockquote>
+	//Comentários// 
+	<!-- Este é um comentário -->// Para programadores,informações do código e separar blocos do código.
+	//Inserir imagens//
+	<img src="exemplo.png alt="Imagem branca" >
+	/Chamando uma imagem em uma pasta
+	<img src="img/exemplo.jpg" alt="Imagem branca" >
+	//Tabelas
+	<table> //abrindo uma tabela /Formatando uma tabela <table border="1px">
+	  <tr> /criando uma linha
+	    <th> /criando uma coluna dentro da linha </th>
+	  </tr> /fechando a linha
+	  <tr> 
+	    <td> /Linha de dados </td>
+	    <td> Nome</td>
+	    <td> Idade </td>
+	    <td> Endereço </td>
+	  </tr> 
+	//Listas
+	/Lista ordenada  /adicionar links <li> <a href="Exemplo> Exemplo </a> </li>
+	<ol>
+	 <li> Exemplo </li>          <li class="item"> Exemplo </li>
+	/Lista não ordenada
+	 <ul> Exemplo </ul>
+	
+	//Formulários
+	<form> (Tag de abertura de form)
+	  <div> (Tag abertura de divisão)
+	    <label for="username"> Nome do usuário </label>
+	  </div>(Tag fechamento de divisão)
+	</form>(Tag de fechamento de form)
+	<form>
+	  <input type="text" name="username" placeholder="Preencha o nome do seu usuário" required
+	  <input type="submit" value="Enviar">
+	</form>
+	// CSS INLINE(interno)
+	<h1 class="títulos" style="color:red;"> Exemplo </h1>
+
+	<style>
+	h1 {
+	   background-color: yellow
+	}
+	
+	#(id que você quer mudar tamanho da fonte)Título_principal {
+	  font-size: 25px;
+	}
+	
+	.item ( class ) {
+	  border: 1px solid red;
+	}
+	</style>
+(elemento com estilos,tamanho e cor diferente adicionar um ID)
+	// CSS EXTERNO
+	/Nó código linkando com css externo
+	<head>
+		<tittle> Teste no bloco de notas   </tittle> 
+		<link rel="stylesheet" href="css/styles.css"/>
+	</head>
+</body>
+</html>
+
+
+
+
+
+	// Mini projeto HTML e CSS
